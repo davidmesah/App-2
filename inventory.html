@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Inventario</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inventory">
+            <h2>Inventario</h2>
+            <form id="inventoryForm">
+                <input type="text" id="name" placeholder="Nombre del producto">
+                <input type="text" id="category" placeholder="Categoría del producto">
+                <button type="submit">Buscar</button>
+            </form>
+            <pre id="results"></pre>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

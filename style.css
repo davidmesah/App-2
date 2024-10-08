@@ -1,0 +1,13 @@
+/* static/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.login, .inventory {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
